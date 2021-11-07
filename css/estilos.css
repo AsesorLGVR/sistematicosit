@@ -155,6 +155,10 @@ header .social-icon li a
 		line-height: 20px;
 		text-align: center;
 	}
+header .social-icon li a:hover
+{
+	border-radius: 50%;
+}
 
 	/*navegador*/
 
@@ -215,6 +219,8 @@ header .social-icon li a
 		color: #28a7e9;
 		font-weight: bold;
 	}
+	
+/* boton empecemos*/
 #home .btn
 	{
 		background: transparent;
@@ -229,11 +235,50 @@ header .social-icon li a
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
+
 #home .btn:hover
 	{
 		background: #28a7e9;
 		border-color: transparent;
 	}
+
+	.boton.cinco span {
+		transition: .4s ease-in-out all;
+		position: absolute;
+		left: 20%;
+	}
+	
+	.boton.cinco .icono {
+		display: flex;
+		align-items: center;
+		position: absolute;
+		z-index: 2;
+		left: -40px;
+		transition: .3s ease-in-out all;
+		opacity: 0;
+	}
+	
+	.boton.cinco svg {
+		color: #fff;
+		width: 35px;
+		height: 35px;
+		padding-bottom: 11px;
+	}
+	
+	.boton.cinco:hover {
+		background: #2f9b05;
+	}
+	
+	.boton.cinco:hover .icono {
+		left: calc(100% - 50px);
+		opacity: 1;
+	}
+	
+	.boton.cinco:hover span {
+		left: 20px;
+	}
+/*fin boton empecemos*/
+
 .element {
 	height: 60px;
 	font-size: 16px;
@@ -306,6 +351,22 @@ header .social-icon li a
 	{
 		height: 50px;
 	}
+#contact input:hover
+{
+	box-shadow: -2px 1px 18px 0px #2474dd;
+	-webkit-box-shadow: -2px 1px 18px 0px #2474dd;
+	-moz-box-shadow: -2px 1px 18px 0px #2474dd;
+}
+#contact .textarea{
+	resize: none;
+}
+#contact textarea:hover
+{
+	box-shadow: -2px 1px 18px 0px #2474dd;
+	-webkit-box-shadow: -2px 1px 18px 0px #2474dd;
+	-moz-box-shadow: -2px 1px 18px 0px #2474dd;
+}
+
 #contact input[type="submit"]
 	{
 		background: #28a7e9;
@@ -394,12 +455,7 @@ header .social-icon li a
 		border-color: transparent;
 	}
 
-.textarea{
-		max-height: 160px;
-		min-height: 120px;
-		min-width: 556px;
-		max-width: 556px;
-}
+
 
 /* mediaqueries */
 
@@ -439,6 +495,7 @@ header .social-icon li a
 		padding-bottom: 5px;
 		line-height: 35px;
 	}
+	
 }
 
 /* 360 media quires */
@@ -457,5 +514,5 @@ header .social-icon li a
 		{
 			font-size: 32px;
 		}
-
+		
 }
