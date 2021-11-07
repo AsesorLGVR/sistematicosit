@@ -454,8 +454,25 @@ header .social-icon li a:hover
 		background: #28a7e9;
 		border-color: transparent;
 	}
-
-
+/* botón subir*/
+	#top {
+		position: relative;
+	}
+	
+	.topHome {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 5;
+		color: #fff;
+	}
+	.movil {
+		position: fixed;
+		bottom: 60px;
+		right: 25px;
+		z-index: 5;
+		color: #fff;
+	}
 
 /* mediaqueries */
 
