@@ -461,14 +461,14 @@ header .social-icon li a:hover
 	
 	.topHome {
 		position: fixed;
-		bottom: 20px;
+		bottom: 25px;
 		right: 20px;
 		z-index: 5;
 		color: #fff;
 	}
 	.movil {
 		position: fixed;
-		bottom: 60px;
+		bottom: 75px;
 		right: 25px;
 		z-index: 5;
 		color: #fff;
