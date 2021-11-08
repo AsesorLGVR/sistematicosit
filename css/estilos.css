@@ -322,9 +322,9 @@ header .social-icon li a:hover
 		padding-bottom: 14px;
 	}
 
-#service li
+#service p
 	{
-		text-align: justify;
+		text-align: center;
 	}
 
 
