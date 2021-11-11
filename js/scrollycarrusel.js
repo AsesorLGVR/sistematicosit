@@ -38,3 +38,7 @@ $(function(){
 $(window).load(function(){
 	$('.preloader').fadeOut(1000); 
 });
+
+function scrollToTop() {
+    $(window).scrollTop(0);
+}

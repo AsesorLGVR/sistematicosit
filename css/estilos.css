@@ -491,7 +491,10 @@ header .social-icon li a:hover
 		color:#47C6F8;
 		outline: none;
 }
-
+/*btn subir*/
+.topHome{
+	cursor: pointer;
+}
 /* mediaqueries */
 
 /* 768 media quires */
