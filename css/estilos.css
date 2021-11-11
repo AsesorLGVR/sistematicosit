@@ -5,6 +5,7 @@ body
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; 
+		font-size: 17px;
 	}
 	
 a {
@@ -12,7 +13,7 @@ a {
 }
 	
 a:hover {
-	color: #0FF;
+	color: #47C6F8;
 }
 
 /* h2 */
@@ -301,7 +302,6 @@ header .social-icon li a:hover
 #service .active
 	{
 		background: #505050;
-		padding: 40px;
 	}
 #service .fa
 	{
@@ -324,7 +324,7 @@ header .social-icon li a:hover
 
 #service p
 	{
-		text-align: center;
+		text-align: left;
 	}
 
 
@@ -473,6 +473,24 @@ header .social-icon li a:hover
 		z-index: 5;
 		color: #fff;
 	}
+/*faq*/
+.faq{
+	padding: 0 40px;
+	text-align: justify;
+}
+.respuestas{
+	text-align: center;
+}
+.preguntas {
+	color:#fff;
+	
+	font-size:17px;
+}
+.preguntas:hover {
+    text-decoration:none;
+		color:#47C6F8;
+		outline: none;
+}
 
 /* mediaqueries */
 
